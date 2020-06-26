@@ -1,0 +1,12 @@
+#N canvas 686 38 666 343 12;
+#X obj 185 526 dac~;
+#X obj 172 388 csound6~ /home/franz/noise/Pd/externals/csound/fmbell.csd
+;
+#X floatatom 371 239 5 0 0 0 - - -;
+#X msg 198 326 reset;
+#X msg 120 304 rewind;
+#X msg 96 355 run 1;
+#X connect 1 0 0 0;
+#X connect 3 0 1 0;
+#X connect 4 0 1 0;
+#X connect 5 0 1 0;

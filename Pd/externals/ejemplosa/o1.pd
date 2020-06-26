@@ -1,0 +1,14 @@
+#N canvas 0 58 1366 710 12;
+#X obj 404 86 inlet;
+#X obj 403 124 metro 80;
+#X obj 400 161 random 100;
+#X obj 401 201 + 20;
+#X obj 400 239 mtof;
+#X obj 407 275 osc~;
+#X obj 410 317 outlet~;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
